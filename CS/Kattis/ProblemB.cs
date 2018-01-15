@@ -26,8 +26,6 @@ namespace Kattis
                     mat.Clear();
                 }
             }
-
-
         }
 
         public static void CalculateMatrixInverse(Int32 i, Int32 a, Int32 b, Int32 c, Int32 d)

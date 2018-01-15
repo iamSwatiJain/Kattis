@@ -15,7 +15,7 @@ namespace Kattis
 
     Solution
     The solution is to "back trace" the balls to start. In other words, you do the following:
-    1. Find where B1 has to be hit B3 for B3 to go to top-right corner (this involves drawing a line from top right corner to B3, and then extending it by 2*radius)
+    1. Find where B1 has to be to hit B3 for B3 to go to top-right corner (this involves drawing a line from top right corner to B3, and then extending it by 2*radius)
     2. Find where Q has to be to hit B1 to get B1 to hit B3 correctly (call this position C1)
     3. Find where Q has to be to hit B2 to get B2 to go into top left corner (call this position C2)
     4. Find initial position of Q by "reflecting" the path of C2-C1 according to the line C1-B1.
